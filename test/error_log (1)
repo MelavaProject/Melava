@@ -1,0 +1,21 @@
+[20-Sep-2021 10:05:14 UTC] PHP Fatal error:  Uncaught Google\Service\Exception: {
+  "error": {
+    "code": 403,
+    "message": "Request had insufficient authentication scopes.",
+    "errors": [
+      {
+        "message": "Insufficient Permission",
+        "domain": "global",
+        "reason": "insufficientPermissions"
+      }
+    ],
+    "status": "PERMISSION_DENIED"
+  }
+}
+ in /home/adidg/google_api/src/Http/REST.php:128
+Stack trace:
+#0 /home/adidg/google_api/src/Http/REST.php(103): Google\Http\REST::decodeHttpResponse(Object(GuzzleHttp\Psr7\Response), Object(GuzzleHttp\Psr7\Request), 'Google\\Service\\...')
+#1 [internal function]: Google\Http\REST::doExecute(Object(GuzzleHttp\Client), Object(GuzzleHttp\Psr7\Request), 'Google\\Service\\...')
+#2 /home/adidg/google_api/src/Task/Runner.php(182): call_user_func_array(Array, Array)
+#3 /home/adidg/google_api/src/Http/REST.php(66): Google\Task\Runner->run()
+#4 /home/adidg/google_api/src/Client.php(898): Google\Http\REST::execute(Object(GuzzleHttp\Client), Object(GuzzleHttp\Psr7\Request), 'Google\\Service\\...', in /home/adidg/google_api/src/Http/REST.php on line 128
