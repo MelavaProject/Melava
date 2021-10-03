@@ -2,12 +2,13 @@ body{
     color: black;
     padding-bottom:4.2rem;
     background:rgba(0, 0, 0, 0.76);
-    }
-    a{
-     text-decoration:none !important;
-     }
+    direction: rtl;
+}
+a{
+ text-decoration:none !important;
+ }
 
-      .myform{
+.myform{
     position: relative;
     display: -ms-flexbox;
     display: flex;
@@ -22,30 +23,47 @@ body{
     border-radius: 1.1rem;
     outline: 0;
     max-width: 500px;
-     }
-     .tx-tfm{
-     text-transform:uppercase;
-     }
-     .mybtn{
-     border-radius:50px;
-     }
-     
-      form .error {
-     color: #ff0000;
-     }
-     #second{display:none;}
-     
-    .row {
-        display: flex;
-        justify-content: center;
-        margin-top: 100px;
-    }
+}
+.tx-tfm{
+ text-transform:uppercase;
+}
+.mybtn{
+ border-radius:50px;
+}
+ 
+form .error {
+ color: #ff0000;
+}
+
+#second{display:none;}
+ 
+.row {
+    display: flex;
+    justify-content: center;
+    margin-top: 100px;
+}
+
+.btn-primary {
+    background-color: #d8c3ce !important;
+    border-color: #cea9b6 !important;
+}
+
+input {
+    text-align: right;
+}
+
+div, table {direction: rtl;}
+
+.table th, .table td {text-align:center;}
+
+textarea {    resize: none;    }
+
+#products .product , #articles .article {
     
-    .btn-primary {
-        background-color: #d8c3ce !important;
-        border-color: #cea9b6 !important;
-    }
-    
-    input {
-        text-align: right;
-    }
+  border-radius: 25px;
+  border: 2px solid gray;
+  padding: 20px;
+  margin: 20px 0;
+  /*width: 200px;
+  height: 150px;*/
+}

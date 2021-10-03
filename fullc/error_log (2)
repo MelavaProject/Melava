@@ -1,0 +1,153 @@
+[23-Sep-2021 06:30:16 UTC] PHP Fatal error:  Class 'App\Http\Controllers\Controller' not found in /home/adidg/public_html/fullc/gCalendarController.php on line 12
+[23-Sep-2021 06:46:06 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function getEvents() in /home/adidg/public_html/fullc/test.php:21
+Stack trace:
+#0 {main}
+  thrown in /home/adidg/public_html/fullc/test.php on line 21
+[23-Sep-2021 06:46:32 UTC] PHP Warning:  require(../google_api/vendor/autoload.php): failed to open stream: No such file or directory in /home/adidg/public_html/fullc/getEvents.php on line 5
+[23-Sep-2021 06:46:32 UTC] PHP Fatal error:  require(): Failed opening required '../google_api/vendor/autoload.php' (include_path='.:/opt/cpanel/ea-php70/root/usr/share/pear') in /home/adidg/public_html/fullc/getEvents.php on line 5
+[23-Sep-2021 06:51:27 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function getEvents() in /home/adidg/public_html/fullc/test.php:21
+Stack trace:
+#0 {main}
+  thrown in /home/adidg/public_html/fullc/test.php on line 21
+[23-Sep-2021 06:54:33 UTC] PHP Warning:  fgets() expects parameter 1 to be resource, string given in /home/adidg/public_html/fullc/getEvents.php on line 40
+[23-Sep-2021 06:54:33 UTC] PHP Fatal error:  Uncaught InvalidArgumentException: Invalid code in /home/adidg/google_api/src/Client.php:239
+Stack trace:
+#0 /home/adidg/public_html/fullc/getEvents.php(43): Google\Client->fetchAccessTokenWithAuthCode('')
+#1 /home/adidg/public_html/fullc/getEvents.php(64): getClient()
+#2 /home/adidg/public_html/fullc/test.php(21): getEvents()
+#3 {main}
+  thrown in /home/adidg/google_api/src/Client.php on line 239
+[23-Sep-2021 06:54:56 UTC] PHP Warning:  fgets() expects parameter 1 to be resource, string given in /home/adidg/public_html/fullc/getEvents.php on line 40
+[23-Sep-2021 06:54:56 UTC] PHP Fatal error:  Uncaught InvalidArgumentException: Invalid code in /home/adidg/google_api/src/Client.php:239
+Stack trace:
+#0 /home/adidg/public_html/fullc/getEvents.php(43): Google\Client->fetchAccessTokenWithAuthCode('')
+#1 /home/adidg/public_html/fullc/getEvents.php(64): getClient()
+#2 /home/adidg/public_html/fullc/testInit.php(4): getEvents()
+#3 {main}
+  thrown in /home/adidg/google_api/src/Client.php on line 239
+[23-Sep-2021 06:56:23 UTC] PHP Warning:  fgets() expects parameter 1 to be resource, string given in /home/adidg/public_html/fullc/getEvents.php on line 40
+[23-Sep-2021 06:56:23 UTC] PHP Fatal error:  Uncaught InvalidArgumentException: Invalid code in /home/adidg/google_api/src/Client.php:239
+Stack trace:
+#0 /home/adidg/public_html/fullc/getEvents.php(43): Google\Client->fetchAccessTokenWithAuthCode('')
+#1 /home/adidg/public_html/fullc/getEvents.php(64): getClient()
+#2 /home/adidg/public_html/fullc/testInit.php(4): getEvents()
+#3 {main}
+  thrown in /home/adidg/google_api/src/Client.php on line 239
+[23-Sep-2021 06:56:25 UTC] PHP Warning:  fgets() expects parameter 1 to be resource, string given in /home/adidg/public_html/fullc/getEvents.php on line 40
+[23-Sep-2021 06:56:25 UTC] PHP Fatal error:  Uncaught InvalidArgumentException: Invalid code in /home/adidg/google_api/src/Client.php:239
+Stack trace:
+#0 /home/adidg/public_html/fullc/getEvents.php(43): Google\Client->fetchAccessTokenWithAuthCode('')
+#1 /home/adidg/public_html/fullc/getEvents.php(64): getClient()
+#2 /home/adidg/public_html/fullc/testInit.php(4): getEvents()
+#3 {main}
+  thrown in /home/adidg/google_api/src/Client.php on line 239
+[23-Sep-2021 06:58:23 UTC] PHP Warning:  fgets() expects parameter 1 to be resource, string given in /home/adidg/public_html/fullc/getEvents.php on line 41
+[23-Sep-2021 06:58:23 UTC] PHP Fatal error:  Uncaught InvalidArgumentException: Invalid code in /home/adidg/google_api/src/Client.php:239
+Stack trace:
+#0 /home/adidg/public_html/fullc/getEvents.php(44): Google\Client->fetchAccessTokenWithAuthCode('')
+#1 /home/adidg/public_html/fullc/getEvents.php(65): getClient()
+#2 /home/adidg/public_html/fullc/testInit.php(4): getEvents()
+#3 {main}
+  thrown in /home/adidg/google_api/src/Client.php on line 239
+[23-Sep-2021 06:58:49 UTC] PHP Warning:  fgets() expects parameter 1 to be resource, string given in /home/adidg/public_html/fullc/getEvents.php on line 41
+[23-Sep-2021 06:58:49 UTC] PHP Fatal error:  Uncaught InvalidArgumentException: Invalid code in /home/adidg/google_api/src/Client.php:239
+Stack trace:
+#0 /home/adidg/public_html/fullc/getEvents.php(44): Google\Client->fetchAccessTokenWithAuthCode('')
+#1 /home/adidg/public_html/fullc/getEvents.php(65): getClient()
+#2 /home/adidg/public_html/fullc/testInit.php(4): getEvents()
+#3 {main}
+  thrown in /home/adidg/google_api/src/Client.php on line 239
+[23-Sep-2021 07:00:58 UTC] PHP Fatal error:  Uncaught InvalidArgumentException: missing the required client identifier in /home/adidg/google_api/vendor/google/auth/src/OAuth2.php:678
+Stack trace:
+#0 /home/adidg/google_api/src/Client.php(396): Google\Auth\OAuth2->buildFullAuthorizationUri(Array)
+#1 /home/adidg/public_html/fullc/getEvents.php(41): Google\Client->createAuthUrl()
+#2 /home/adidg/public_html/fullc/getEvents.php(68): getClient()
+#3 /home/adidg/public_html/fullc/testInit.php(4): getEvents()
+#4 {main}
+  thrown in /home/adidg/google_api/vendor/google/auth/src/OAuth2.php on line 678
+[23-Sep-2021 07:02:06 UTC] PHP Fatal error:  Uncaught InvalidArgumentException: missing the required client identifier in /home/adidg/google_api/vendor/google/auth/src/OAuth2.php:678
+Stack trace:
+#0 /home/adidg/google_api/src/Client.php(396): Google\Auth\OAuth2->buildFullAuthorizationUri(Array)
+#1 /home/adidg/public_html/fullc/getEvents.php(42): Google\Client->createAuthUrl()
+#2 /home/adidg/public_html/fullc/getEvents.php(69): getClient()
+#3 /home/adidg/public_html/fullc/testInit.php(4): getEvents()
+#4 {main}
+  thrown in /home/adidg/google_api/vendor/google/auth/src/OAuth2.php on line 678
+[23-Sep-2021 07:02:09 UTC] PHP Fatal error:  Uncaught InvalidArgumentException: missing the required client identifier in /home/adidg/google_api/vendor/google/auth/src/OAuth2.php:678
+Stack trace:
+#0 /home/adidg/google_api/src/Client.php(396): Google\Auth\OAuth2->buildFullAuthorizationUri(Array)
+#1 /home/adidg/public_html/fullc/getEvents.php(42): Google\Client->createAuthUrl()
+#2 /home/adidg/public_html/fullc/getEvents.php(69): getClient()
+#3 /home/adidg/public_html/fullc/testInit.php(4): getEvents()
+#4 {main}
+  thrown in /home/adidg/google_api/vendor/google/auth/src/OAuth2.php on line 678
+[23-Sep-2021 07:04:15 UTC] PHP Fatal error:  Uncaught InvalidArgumentException: missing the required client identifier in /home/adidg/google_api/vendor/google/auth/src/OAuth2.php:678
+Stack trace:
+#0 /home/adidg/google_api/src/Client.php(396): Google\Auth\OAuth2->buildFullAuthorizationUri(Array)
+#1 /home/adidg/public_html/fullc/getEvents.php(42): Google\Client->createAuthUrl()
+#2 /home/adidg/public_html/fullc/getEvents.php(69): getClient()
+#3 /home/adidg/public_html/fullc/testInit.php(4): getEvents()
+#4 {main}
+  thrown in /home/adidg/google_api/vendor/google/auth/src/OAuth2.php on line 678
+[23-Sep-2021 07:04:17 UTC] PHP Fatal error:  Uncaught InvalidArgumentException: missing the required client identifier in /home/adidg/google_api/vendor/google/auth/src/OAuth2.php:678
+Stack trace:
+#0 /home/adidg/google_api/src/Client.php(396): Google\Auth\OAuth2->buildFullAuthorizationUri(Array)
+#1 /home/adidg/public_html/fullc/getEvents.php(42): Google\Client->createAuthUrl()
+#2 /home/adidg/public_html/fullc/getEvents.php(69): getClient()
+#3 /home/adidg/public_html/fullc/testInit.php(4): getEvents()
+#4 {main}
+  thrown in /home/adidg/google_api/vendor/google/auth/src/OAuth2.php on line 678
+[23-Sep-2021 07:05:59 UTC] PHP Fatal error:  Uncaught InvalidArgumentException: missing the required client identifier in /home/adidg/google_api/vendor/google/auth/src/OAuth2.php:678
+Stack trace:
+#0 /home/adidg/google_api/src/Client.php(396): Google\Auth\OAuth2->buildFullAuthorizationUri(Array)
+#1 /home/adidg/public_html/fullc/getEvents.php(42): Google\Client->createAuthUrl()
+#2 /home/adidg/public_html/fullc/getEvents.php(69): getClient()
+#3 /home/adidg/public_html/fullc/testInit.php(4): getEvents()
+#4 {main}
+  thrown in /home/adidg/google_api/vendor/google/auth/src/OAuth2.php on line 678
+[23-Sep-2021 07:07:59 UTC] PHP Warning:  session_start(): Cannot send session cookie - headers already sent by (output started at /home/adidg/public_html/fullc/getEvents.php:27) in /home/adidg/public_html/fullc/getEvents.php on line 63
+[23-Sep-2021 07:07:59 UTC] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at /home/adidg/public_html/fullc/getEvents.php:27) in /home/adidg/public_html/fullc/getEvents.php on line 63
+[23-Sep-2021 07:25:45 UTC] PHP Fatal error:  Uncaught InvalidArgumentException: json key is missing the client_id field in /home/adidg/google_api/vendor/google/auth/src/Credentials/UserRefreshCredentials.php:71
+Stack trace:
+#0 /home/adidg/google_api/src/Client.php(1272): Google\Auth\Credentials\UserRefreshCredentials->__construct('https://www.goo...', Array)
+#1 /home/adidg/google_api/src/Client.php(432): Google\Client->createUserRefreshCredentials('https://www.goo...', '1//03YxlMxoNNbm...')
+#2 /home/adidg/google_api/src/Client.php(891): Google\Client->authorize()
+#3 /home/adidg/google_api/src/Service/Resource.php(238): Google\Client->execute(Object(GuzzleHttp\Psr7\Request), 'Google\\Service\\...')
+#4 /home/adidg/google_api/vendor/google/apiclient-services/src/Calendar/Resource/Events.php(271): Google\Service\Resource->call('list', Array, 'Google\\Service\\...')
+#5 /home/adidg/public_html/fullc/getEvents.php(75): Google\Service\Calendar\Resource\Events->listEvents('primary')
+#6 /home/adidg/public_html/fullc/testInit.php(4): getEvents()
+#7 {main}
+  thrown in /home/adidg/google_api/vendor/google/auth/src/Credentials/UserRefreshCredentials.php on line 71
+[23-Sep-2021 07:27:42 UTC] PHP Fatal error:  Uncaught InvalidArgumentException: json key is missing the client_id field in /home/adidg/google_api/vendor/google/auth/src/Credentials/UserRefreshCredentials.php:71
+Stack trace:
+#0 /home/adidg/google_api/src/Client.php(1272): Google\Auth\Credentials\UserRefreshCredentials->__construct('https://www.goo...', Array)
+#1 /home/adidg/google_api/src/Client.php(432): Google\Client->createUserRefreshCredentials('https://www.goo...', '1//03YxlMxoNNbm...')
+#2 /home/adidg/google_api/src/Client.php(891): Google\Client->authorize()
+#3 /home/adidg/google_api/src/Service/Resource.php(238): Google\Client->execute(Object(GuzzleHttp\Psr7\Request), 'Google\\Service\\...')
+#4 /home/adidg/google_api/vendor/google/apiclient-services/src/Calendar/Resource/Events.php(271): Google\Service\Resource->call('list', Array, 'Google\\Service\\...')
+#5 /home/adidg/public_html/fullc/getEvents.php(75): Google\Service\Calendar\Resource\Events->listEvents('primary')
+#6 /home/adidg/public_html/fullc/testInit.php(4): getEvents()
+#7 {main}
+  thrown in /home/adidg/google_api/vendor/google/auth/src/Credentials/UserRefreshCredentials.php on line 71
+[23-Sep-2021 07:28:45 UTC] PHP Fatal error:  Uncaught InvalidArgumentException: json key is missing the client_id field in /home/adidg/google_api/vendor/google/auth/src/Credentials/UserRefreshCredentials.php:71
+Stack trace:
+#0 /home/adidg/google_api/src/Client.php(1272): Google\Auth\Credentials\UserRefreshCredentials->__construct('https://www.goo...', Array)
+#1 /home/adidg/google_api/src/Client.php(432): Google\Client->createUserRefreshCredentials('https://www.goo...', '1//03YxlMxoNNbm...')
+#2 /home/adidg/google_api/src/Client.php(891): Google\Client->authorize()
+#3 /home/adidg/google_api/src/Service/Resource.php(238): Google\Client->execute(Object(GuzzleHttp\Psr7\Request), 'Google\\Service\\...')
+#4 /home/adidg/google_api/vendor/google/apiclient-services/src/Calendar/Resource/Events.php(271): Google\Service\Resource->call('list', Array, 'Google\\Service\\...')
+#5 /home/adidg/public_html/fullc/getEvents.php(75): Google\Service\Calendar\Resource\Events->listEvents('primary')
+#6 /home/adidg/public_html/fullc/testInit.php(4): getEvents()
+#7 {main}
+  thrown in /home/adidg/google_api/vendor/google/auth/src/Credentials/UserRefreshCredentials.php on line 71
+[23-Sep-2021 07:29:55 UTC] PHP Fatal error:  Uncaught InvalidArgumentException: json key is missing the client_id field in /home/adidg/google_api/vendor/google/auth/src/Credentials/UserRefreshCredentials.php:71
+Stack trace:
+#0 /home/adidg/google_api/src/Client.php(1272): Google\Auth\Credentials\UserRefreshCredentials->__construct('https://www.goo...', Array)
+#1 /home/adidg/google_api/src/Client.php(432): Google\Client->createUserRefreshCredentials('https://www.goo...', '1//03YxlMxoNNbm...')
+#2 /home/adidg/google_api/src/Client.php(891): Google\Client->authorize()
+#3 /home/adidg/google_api/src/Service/Resource.php(238): Google\Client->execute(Object(GuzzleHttp\Psr7\Request), 'Google\\Service\\...')
+#4 /home/adidg/google_api/vendor/google/apiclient-services/src/Calendar/Resource/Events.php(271): Google\Service\Resource->call('list', Array, 'Google\\Service\\...')
+#5 /home/adidg/public_html/fullc/getEvents.php(75): Google\Service\Calendar\Resource\Events->listEvents('primary')
+#6 /home/adidg/public_html/fullc/testInit.php(4): getEvents()
+#7 {main}
+  thrown in /home/adidg/google_api/vendor/google/auth/src/Credentials/UserRefreshCredentials.php on line 71

@@ -1,0 +1,217 @@
+[12-Sep-2021 10:59:58 UTC] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at /home/adidg/public_html/includes/php/sign-up.php:1) in /home/adidg/public_html/includes/php/sign-up.php on line 47
+[12-Sep-2021 11:06:38 UTC] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at /home/adidg/public_html/includes/php/sign-in.php:1) in /home/adidg/public_html/includes/php/sign-in.php on line 23
+[12-Sep-2021 11:15:14 UTC] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at /home/adidg/public_html/includes/php/sign-up.php:1) in /home/adidg/public_html/includes/php/sign-up.php on line 47
+[12-Sep-2021 11:17:22 UTC] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at /home/adidg/public_html/includes/php/sign-in.php:1) in /home/adidg/public_html/includes/php/sign-in.php on line 23
+[12-Sep-2021 11:18:00 UTC] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at /home/adidg/public_html/includes/php/sign-up.php:1) in /home/adidg/public_html/includes/php/sign-up.php on line 47
+[12-Sep-2021 11:18:12 UTC] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at /home/adidg/public_html/includes/php/sign-in.php:1) in /home/adidg/public_html/includes/php/sign-in.php on line 23
+[12-Sep-2021 11:28:55 UTC] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at /home/adidg/public_html/includes/php/sign-up.php:1) in /home/adidg/public_html/includes/php/sign-up.php on line 47
+[12-Sep-2021 11:30:07 UTC] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at /home/adidg/public_html/includes/php/sign-in.php:1) in /home/adidg/public_html/includes/php/sign-in.php on line 23
+[12-Sep-2021 11:37:04 UTC] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at /home/adidg/public_html/includes/php/sign-in.php:1) in /home/adidg/public_html/includes/php/sign-in.php on line 23
+[12-Sep-2021 11:37:48 UTC] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at /home/adidg/public_html/includes/php/sign-in.php:1) in /home/adidg/public_html/includes/php/sign-in.php on line 23
+[12-Sep-2021 11:39:31 UTC] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at /home/adidg/public_html/includes/php/sign-in.php:1) in /home/adidg/public_html/includes/php/sign-in.php on line 23
+[15-Sep-2021 15:12:19 UTC] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at /home/adidg/public_html/includes/php/sign-in.php:1) in /home/adidg/public_html/includes/php/sign-in.php on line 23
+[20-Sep-2021 09:37:54 UTC] PHP Warning:  session_start(): Cannot send session cookie - headers already sent by (output started at /home/adidg/public_html/includes/php/sign-in.php:1) in /home/adidg/public_html/includes/php/sign-in.php on line 23
+[20-Sep-2021 09:37:54 UTC] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at /home/adidg/public_html/includes/php/sign-in.php:1) in /home/adidg/public_html/includes/php/sign-in.php on line 23
+[20-Sep-2021 09:38:16 UTC] PHP Warning:  session_start(): Cannot send session cookie - headers already sent by (output started at /home/adidg/public_html/includes/php/sign-in.php:1) in /home/adidg/public_html/includes/php/sign-in.php on line 23
+[20-Sep-2021 09:38:16 UTC] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at /home/adidg/public_html/includes/php/sign-in.php:1) in /home/adidg/public_html/includes/php/sign-in.php on line 23
+[22-Sep-2021 16:38:37 UTC] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at /home/adidg/public_html/includes/php/sign-in.php:1) in /home/adidg/public_html/includes/php/sign-in.php on line 23
+[22-Sep-2021 16:44:02 UTC] PHP Warning:  mysqli::__construct(): (HY000/1044): Access denied for user 'adidg'@'localhost' to database 'adidg_SandaW92' in /home/adidg/public_html/includes/php/database.php on line 21
+[22-Sep-2021 16:47:17 UTC] PHP Warning:  mysqli::__construct(): (HY000/1044): Access denied for user 'adidg'@'localhost' to database 'adidg_SandaW92' in /home/adidg/public_html/includes/php/database.php on line 21
+[22-Sep-2021 16:48:04 UTC] PHP Warning:  mysqli::__construct(): (HY000/1044): Access denied for user 'adidg'@'localhost' to database 'adidg_SandaW92' in /home/adidg/public_html/includes/php/database.php on line 21
+[22-Sep-2021 16:48:16 UTC] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at /home/adidg/public_html/includes/php/sign-in.php:1) in /home/adidg/public_html/includes/php/sign-in.php on line 23
+[22-Sep-2021 16:48:20 UTC] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at /home/adidg/public_html/includes/php/sign-in.php:1) in /home/adidg/public_html/includes/php/sign-in.php on line 23
+[22-Sep-2021 16:48:24 UTC] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at /home/adidg/public_html/includes/php/sign-in.php:1) in /home/adidg/public_html/includes/php/sign-in.php on line 23
+[22-Sep-2021 16:49:08 UTC] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at /home/adidg/public_html/includes/php/sign-in.php:1) in /home/adidg/public_html/includes/php/sign-in.php on line 23
+[22-Sep-2021 18:01:02 UTC] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at /home/adidg/public_html/includes/php/scheduler.php:1) in /home/adidg/public_html/includes/php/scheduler.php on line 5
+[22-Sep-2021 18:01:29 UTC] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at /home/adidg/public_html/includes/php/scheduler.php:1) in /home/adidg/public_html/includes/php/scheduler.php on line 5
+[22-Sep-2021 18:03:26 UTC] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at /home/adidg/public_html/includes/php/scheduler.php:1) in /home/adidg/public_html/includes/php/scheduler.php on line 8
+[22-Sep-2021 18:03:54 UTC] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at /home/adidg/public_html/includes/php/scheduler.php:1) in /home/adidg/public_html/includes/php/scheduler.php on line 5
+[22-Sep-2021 18:03:55 UTC] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at /home/adidg/public_html/includes/php/scheduler.php:1) in /home/adidg/public_html/includes/php/scheduler.php on line 5
+[22-Sep-2021 18:03:56 UTC] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at /home/adidg/public_html/includes/php/scheduler.php:1) in /home/adidg/public_html/includes/php/scheduler.php on line 5
+[22-Sep-2021 18:07:07 UTC] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at /home/adidg/public_html/includes/php/scheduler.php:1) in /home/adidg/public_html/includes/php/scheduler.php on line 5
+[22-Sep-2021 18:07:15 UTC] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at /home/adidg/public_html/includes/php/scheduler.php:1) in /home/adidg/public_html/includes/php/scheduler.php on line 5
+[22-Sep-2021 18:07:17 UTC] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at /home/adidg/public_html/includes/php/scheduler.php:1) in /home/adidg/public_html/includes/php/scheduler.php on line 5
+[22-Sep-2021 18:07:18 UTC] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at /home/adidg/public_html/includes/php/scheduler.php:1) in /home/adidg/public_html/includes/php/scheduler.php on line 5
+[22-Sep-2021 18:07:19 UTC] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at /home/adidg/public_html/includes/php/scheduler.php:1) in /home/adidg/public_html/includes/php/scheduler.php on line 5
+[22-Sep-2021 18:07:20 UTC] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at /home/adidg/public_html/includes/php/scheduler.php:1) in /home/adidg/public_html/includes/php/scheduler.php on line 5
+[22-Sep-2021 18:07:21 UTC] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at /home/adidg/public_html/includes/php/scheduler.php:1) in /home/adidg/public_html/includes/php/scheduler.php on line 5
+[22-Sep-2021 18:07:22 UTC] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at /home/adidg/public_html/includes/php/scheduler.php:1) in /home/adidg/public_html/includes/php/scheduler.php on line 5
+[22-Sep-2021 18:07:22 UTC] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at /home/adidg/public_html/includes/php/scheduler.php:1) in /home/adidg/public_html/includes/php/scheduler.php on line 5
+[22-Sep-2021 18:07:23 UTC] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at /home/adidg/public_html/includes/php/scheduler.php:1) in /home/adidg/public_html/includes/php/scheduler.php on line 5
+[22-Sep-2021 18:07:23 UTC] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at /home/adidg/public_html/includes/php/scheduler.php:1) in /home/adidg/public_html/includes/php/scheduler.php on line 5
+[22-Sep-2021 18:07:23 UTC] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at /home/adidg/public_html/includes/php/scheduler.php:1) in /home/adidg/public_html/includes/php/scheduler.php on line 5
+[22-Sep-2021 18:07:24 UTC] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at /home/adidg/public_html/includes/php/scheduler.php:1) in /home/adidg/public_html/includes/php/scheduler.php on line 5
+[22-Sep-2021 18:07:24 UTC] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at /home/adidg/public_html/includes/php/scheduler.php:1) in /home/adidg/public_html/includes/php/scheduler.php on line 5
+[22-Sep-2021 18:07:24 UTC] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at /home/adidg/public_html/includes/php/scheduler.php:1) in /home/adidg/public_html/includes/php/scheduler.php on line 5
+[22-Sep-2021 18:07:24 UTC] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at /home/adidg/public_html/includes/php/scheduler.php:1) in /home/adidg/public_html/includes/php/scheduler.php on line 5
+[22-Sep-2021 18:07:24 UTC] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at /home/adidg/public_html/includes/php/scheduler.php:1) in /home/adidg/public_html/includes/php/scheduler.php on line 5
+[22-Sep-2021 18:07:32 UTC] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at /home/adidg/public_html/includes/php/scheduler.php:1) in /home/adidg/public_html/includes/php/scheduler.php on line 5
+[22-Sep-2021 18:07:34 UTC] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at /home/adidg/public_html/includes/php/scheduler.php:1) in /home/adidg/public_html/includes/php/scheduler.php on line 5
+[22-Sep-2021 18:07:36 UTC] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at /home/adidg/public_html/includes/php/scheduler.php:1) in /home/adidg/public_html/includes/php/scheduler.php on line 5
+[22-Sep-2021 18:08:56 UTC] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at /home/adidg/public_html/includes/php/scheduler.php:1) in /home/adidg/public_html/includes/php/scheduler.php on line 4
+[22-Sep-2021 18:10:21 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function test_input() in /home/adidg/public_html/includes/php/scheduler.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/adidg/public_html/includes/php/scheduler.php on line 8
+[23-Sep-2021 02:32:31 UTC] PHP Warning:  session_start(): Cannot send session cookie - headers already sent by (output started at /home/adidg/public_html/includes/php/sign-in.php:1) in /home/adidg/public_html/includes/php/sign-in.php on line 23
+[23-Sep-2021 02:32:31 UTC] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at /home/adidg/public_html/includes/php/sign-in.php:1) in /home/adidg/public_html/includes/php/sign-in.php on line 23
+[23-Sep-2021 12:03:23 UTC] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at /home/adidg/public_html/includes/php/sign-in.php:1) in /home/adidg/public_html/includes/php/sign-in.php on line 23
+[23-Sep-2021 12:17:25 UTC] PHP Fatal error:  Uncaught Error: Call to a member function query() on null in /home/adidg/public_html/includes/php/scheduler.php:30
+Stack trace:
+#0 /home/adidg/public_html/includes/php/scheduler.php(9): refreshEventsTimes()
+#1 {main}
+  thrown in /home/adidg/public_html/includes/php/scheduler.php on line 30
+[23-Sep-2021 12:44:13 UTC] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at /home/adidg/public_html/includes/php/sign-in.php:1) in /home/adidg/public_html/includes/php/sign-in.php on line 23
+[23-Sep-2021 12:44:25 UTC] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at /home/adidg/public_html/includes/php/sign-in.php:1) in /home/adidg/public_html/includes/php/sign-in.php on line 23
+[25-Sep-2021 15:16:51 UTC] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at /home/adidg/public_html/includes/php/sign-up.php:1) in /home/adidg/public_html/includes/php/sign-up.php on line 47
+[25-Sep-2021 15:25:15 UTC] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at /home/adidg/public_html/includes/php/sign-in.php:1) in /home/adidg/public_html/includes/php/sign-in.php on line 23
+[25-Sep-2021 15:49:47 UTC] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at /home/adidg/public_html/includes/php/sign-in.php:1) in /home/adidg/public_html/includes/php/sign-in.php on line 23
+[25-Sep-2021 15:50:29 UTC] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at /home/adidg/public_html/includes/php/sign-in.php:1) in /home/adidg/public_html/includes/php/sign-in.php on line 23
+[25-Sep-2021 15:51:08 UTC] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at /home/adidg/public_html/includes/php/sign-in.php:1) in /home/adidg/public_html/includes/php/sign-in.php on line 23
+[25-Sep-2021 16:45:43 UTC] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at /home/adidg/public_html/includes/php/sign-up.php:1) in /home/adidg/public_html/includes/php/sign-up.php on line 47
+[25-Sep-2021 16:45:58 UTC] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at /home/adidg/public_html/includes/php/sign-in.php:1) in /home/adidg/public_html/includes/php/sign-in.php on line 23
+[25-Sep-2021 16:58:12 UTC] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at /home/adidg/public_html/includes/php/scheduler.php:1) in /home/adidg/public_html/includes/php/scheduler.php on line 7
+[26-Sep-2021 10:18:56 UTC] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at /home/adidg/public_html/includes/php/sign-in.php:1) in /home/adidg/public_html/includes/php/sign-in.php on line 23
+[26-Sep-2021 10:19:10 UTC] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at /home/adidg/public_html/includes/php/sign-in.php:1) in /home/adidg/public_html/includes/php/sign-in.php on line 23
+[26-Sep-2021 10:19:37 UTC] PHP Warning:  mysqli::query(): Empty query in /home/adidg/public_html/includes/php/scheduler.php on line 33
+[26-Sep-2021 10:32:24 UTC] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at /home/adidg/public_html/includes/php/sign-in.php:1) in /home/adidg/public_html/includes/php/sign-in.php on line 23
+[26-Sep-2021 11:10:05 UTC] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at /home/adidg/public_html/includes/php/sign-in.php:1) in /home/adidg/public_html/includes/php/sign-in.php on line 23
+[26-Sep-2021 11:12:52 UTC] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at /home/adidg/public_html/includes/php/sign-in.php:1) in /home/adidg/public_html/includes/php/sign-in.php on line 23
+[26-Sep-2021 11:14:46 UTC] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at /home/adidg/public_html/includes/php/sign-in.php:1) in /home/adidg/public_html/includes/php/sign-in.php on line 23
+[26-Sep-2021 11:18:28 UTC] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at /home/adidg/public_html/includes/php/sign-in.php:1) in /home/adidg/public_html/includes/php/sign-in.php on line 23
+[26-Sep-2021 11:20:32 UTC] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at /home/adidg/public_html/includes/php/sign-in.php:1) in /home/adidg/public_html/includes/php/sign-in.php on line 23
+[26-Sep-2021 11:25:38 UTC] PHP Fatal error:  Uncaught Error: Call to a member function get_connection() on null in /home/adidg/public_html/includes/php/Articles.php:3
+Stack trace:
+#0 {main}
+  thrown in /home/adidg/public_html/includes/php/Articles.php on line 3
+[26-Sep-2021 11:49:03 UTC] PHP Warning:  date() expects at least 1 parameter, 0 given in /home/adidg/public_html/includes/php/AddArticle.php on line 11
+[26-Sep-2021 11:49:41 UTC] PHP Warning:  date() expects at least 1 parameter, 0 given in /home/adidg/public_html/includes/php/AddArticle.php on line 11
+[26-Sep-2021 11:59:02 UTC] PHP Parse error:  syntax error, unexpected end of file in /home/adidg/public_html/includes/php/AddArticle.php on line 87
+[26-Sep-2021 12:36:14 UTC] PHP Warning:  getimagesize(): Filename cannot be empty in /home/adidg/public_html/includes/php/AddArticle.php on line 35
+[26-Sep-2021 12:36:58 UTC] PHP Warning:  getimagesize(): Filename cannot be empty in /home/adidg/public_html/includes/php/AddArticle.php on line 35
+[26-Sep-2021 12:39:00 UTC] PHP Warning:  getimagesize(): Filename cannot be empty in /home/adidg/public_html/includes/php/AddArticle.php on line 35
+[26-Sep-2021 12:40:26 UTC] PHP Warning:  getimagesize(): Filename cannot be empty in /home/adidg/public_html/includes/php/AddArticle.php on line 35
+[26-Sep-2021 12:45:45 UTC] PHP Parse error:  syntax error, unexpected '<', expecting end of file in /home/adidg/public_html/includes/php/AddArticle.php on line 135
+[26-Sep-2021 15:38:08 UTC] PHP Warning:  mysqli::query(): Empty query in /home/adidg/public_html/includes/php/scheduler.php on line 33
+[26-Sep-2021 16:15:34 UTC] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at /home/adidg/public_html/includes/php/scheduler.php:1) in /home/adidg/public_html/includes/php/scheduler.php on line 19
+[26-Sep-2021 16:18:54 UTC] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at /home/adidg/public_html/includes/php/scheduler.php:1) in /home/adidg/public_html/includes/php/scheduler.php on line 2
+[26-Sep-2021 16:19:53 UTC] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at /home/adidg/public_html/includes/php/scheduler.php:1) in /home/adidg/public_html/includes/php/scheduler.php on line 3
+[26-Sep-2021 16:20:09 UTC] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at /home/adidg/public_html/includes/php/scheduler.php:1) in /home/adidg/public_html/includes/php/scheduler.php on line 3
+[26-Sep-2021 16:24:15 UTC] PHP Parse error:  syntax error, unexpected end of file in /home/adidg/public_html/includes/php/scheduler.php on line 1
+[26-Sep-2021 16:32:25 UTC] PHP Warning:  fgets() expects parameter 1 to be resource, string given in /home/adidg/public_html/includes/php/scheduler.php on line 141
+[26-Sep-2021 16:32:25 UTC] PHP Fatal error:  Uncaught InvalidArgumentException: Invalid code in /home/adidg/vendor/google/apiclient/src/Client.php:239
+Stack trace:
+#0 /home/adidg/public_html/includes/php/scheduler.php(144): Google\Client->fetchAccessTokenWithAuthCode('')
+#1 /home/adidg/public_html/includes/php/scheduler.php(41): getClient()
+#2 {main}
+  thrown in /home/adidg/vendor/google/apiclient/src/Client.php on line 239
+[26-Sep-2021 16:39:08 UTC] PHP Warning:  fgets() expects parameter 1 to be resource, string given in /home/adidg/public_html/includes/php/scheduler.php on line 141
+[26-Sep-2021 16:39:08 UTC] PHP Fatal error:  Uncaught InvalidArgumentException: Invalid code in /home/adidg/vendor/google/apiclient/src/Client.php:239
+Stack trace:
+#0 /home/adidg/public_html/includes/php/scheduler.php(144): Google\Client->fetchAccessTokenWithAuthCode('')
+#1 /home/adidg/public_html/includes/php/scheduler.php(41): getClient()
+#2 {main}
+  thrown in /home/adidg/vendor/google/apiclient/src/Client.php on line 239
+[26-Sep-2021 16:46:01 UTC] PHP Warning:  fgets() expects parameter 1 to be resource, string given in /home/adidg/public_html/includes/php/scheduler.php on line 141
+[26-Sep-2021 16:46:01 UTC] PHP Fatal error:  Uncaught InvalidArgumentException: Invalid code in /home/adidg/vendor/google/apiclient/src/Client.php:239
+Stack trace:
+#0 /home/adidg/public_html/includes/php/scheduler.php(144): Google\Client->fetchAccessTokenWithAuthCode('')
+#1 /home/adidg/public_html/includes/php/scheduler.php(41): getClient()
+#2 {main}
+  thrown in /home/adidg/vendor/google/apiclient/src/Client.php on line 239
+[26-Sep-2021 16:46:18 UTC] PHP Warning:  fgets() expects parameter 1 to be resource, string given in /home/adidg/public_html/includes/php/scheduler.php on line 141
+[26-Sep-2021 16:46:18 UTC] PHP Fatal error:  Uncaught InvalidArgumentException: Invalid code in /home/adidg/vendor/google/apiclient/src/Client.php:239
+Stack trace:
+#0 /home/adidg/public_html/includes/php/scheduler.php(144): Google\Client->fetchAccessTokenWithAuthCode('')
+#1 /home/adidg/public_html/includes/php/scheduler.php(41): getClient()
+#2 {main}
+  thrown in /home/adidg/vendor/google/apiclient/src/Client.php on line 239
+[26-Sep-2021 16:47:43 UTC] PHP Warning:  fgets() expects parameter 1 to be resource, string given in /home/adidg/public_html/includes/php/scheduler.php on line 141
+[26-Sep-2021 16:47:43 UTC] PHP Fatal error:  Uncaught InvalidArgumentException: Invalid code in /home/adidg/vendor/google/apiclient/src/Client.php:239
+Stack trace:
+#0 /home/adidg/public_html/includes/php/scheduler.php(144): Google\Client->fetchAccessTokenWithAuthCode('')
+#1 /home/adidg/public_html/includes/php/scheduler.php(41): getClient()
+#2 {main}
+  thrown in /home/adidg/vendor/google/apiclient/src/Client.php on line 239
+[26-Sep-2021 17:02:46 UTC] PHP Warning:  fgets() expects parameter 1 to be resource, string given in /home/adidg/public_html/includes/php/scheduler.php on line 141
+[26-Sep-2021 17:02:46 UTC] PHP Fatal error:  Uncaught InvalidArgumentException: Invalid code in /home/adidg/vendor/google/apiclient/src/Client.php:239
+Stack trace:
+#0 /home/adidg/public_html/includes/php/scheduler.php(144): Google\Client->fetchAccessTokenWithAuthCode('')
+#1 /home/adidg/public_html/includes/php/scheduler.php(41): getClient()
+#2 {main}
+  thrown in /home/adidg/vendor/google/apiclient/src/Client.php on line 239
+[26-Sep-2021 17:57:41 UTC] PHP Warning:  fgets() expects parameter 1 to be resource, string given in /home/adidg/public_html/includes/php/scheduler.php on line 141
+[26-Sep-2021 17:57:41 UTC] PHP Fatal error:  Uncaught InvalidArgumentException: Invalid code in /home/adidg/vendor/google/apiclient/src/Client.php:239
+Stack trace:
+#0 /home/adidg/public_html/includes/php/scheduler.php(144): Google\Client->fetchAccessTokenWithAuthCode('')
+#1 /home/adidg/public_html/includes/php/scheduler.php(41): getClient()
+#2 {main}
+  thrown in /home/adidg/vendor/google/apiclient/src/Client.php on line 239
+[27-Sep-2021 09:25:53 UTC] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at /home/adidg/public_html/includes/php/AddArticle2.php:1) in /home/adidg/public_html/includes/php/AddArticle2.php on line 16
+[27-Sep-2021 09:26:45 UTC] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at /home/adidg/public_html/includes/php/AddArticle2.php:1) in /home/adidg/public_html/includes/php/AddArticle2.php on line 16
+[27-Sep-2021 09:30:07 UTC] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at /home/adidg/public_html/includes/php/AddArticle2.php:1) in /home/adidg/public_html/includes/php/AddArticle2.php on line 16
+[27-Sep-2021 09:30:27 UTC] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at /home/adidg/public_html/includes/php/AddArticle2.php:1) in /home/adidg/public_html/includes/php/AddArticle2.php on line 16
+[27-Sep-2021 09:31:40 UTC] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at /home/adidg/public_html/includes/php/AddArticle2.php:1) in /home/adidg/public_html/includes/php/AddArticle2.php on line 4
+[27-Sep-2021 09:32:14 UTC] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at /home/adidg/public_html/includes/php/AddArticle2.php:1) in /home/adidg/public_html/includes/php/AddArticle2.php on line 3
+[27-Sep-2021 09:46:31 UTC] PHP Warning:  getimagesize(עבודה אישית.pdf): failed to open stream: No such file or directory in /home/adidg/public_html/includes/php/AddArticle.php on line 38
+[27-Sep-2021 09:47:27 UTC] PHP Warning:  getimagesize(עבודה אישית.pdf): failed to open stream: No such file or directory in /home/adidg/public_html/includes/php/AddArticle.php on line 38
+[27-Sep-2021 09:52:54 UTC] PHP Parse error:  syntax error, unexpected '=' in /home/adidg/public_html/includes/php/AddArticle.php on line 36
+[27-Sep-2021 09:53:06 UTC] PHP Warning:  getimagesize(עבודה אישית.pdf): failed to open stream: No such file or directory in /home/adidg/public_html/includes/php/AddArticle.php on line 40
+[27-Sep-2021 09:54:14 UTC] PHP Warning:  getimagesize(T381_2017.pdf): failed to open stream: No such file or directory in /home/adidg/public_html/includes/php/AddArticle.php on line 40
+[27-Sep-2021 09:55:24 UTC] PHP Warning:  getimagesize(T381_2017.pdf): failed to open stream: No such file or directory in /home/adidg/public_html/includes/php/AddArticle.php on line 40
+[27-Sep-2021 09:55:24 UTC] PHP Warning:  move_uploaded_file(/media/uploads/T381_2017.pdf): failed to open stream: No such file or directory in /home/adidg/public_html/includes/php/AddArticle.php on line 74
+[27-Sep-2021 09:55:24 UTC] PHP Warning:  move_uploaded_file(): Unable to move '/tmp/phpm7avxB' to '/media/uploads/T381_2017.pdf' in /home/adidg/public_html/includes/php/AddArticle.php on line 74
+[27-Sep-2021 10:02:00 UTC] PHP Warning:  move_uploaded_file(/media/uploads/T381_2017.pdf): failed to open stream: No such file or directory in /home/adidg/public_html/includes/php/AddArticle.php on line 77
+[27-Sep-2021 10:02:00 UTC] PHP Warning:  move_uploaded_file(): Unable to move '/tmp/php8gps06' to '/media/uploads/T381_2017.pdf' in /home/adidg/public_html/includes/php/AddArticle.php on line 77
+[27-Sep-2021 10:02:55 UTC] PHP Warning:  move_uploaded_file(/home/adidg/public_html/includes/php/media/uploads/T381_2017.pdf): failed to open stream: No such file or directory in /home/adidg/public_html/includes/php/AddArticle.php on line 77
+[27-Sep-2021 10:02:55 UTC] PHP Warning:  move_uploaded_file(): Unable to move '/tmp/phpfPkkqq' to '/home/adidg/public_html/includes/php/media/uploads/T381_2017.pdf' in /home/adidg/public_html/includes/php/AddArticle.php on line 77
+[29-Sep-2021 16:13:41 UTC] PHP Warning:  fgets() expects parameter 1 to be resource, string given in /home/adidg/public_html/includes/php/scheduler.php on line 141
+[29-Sep-2021 16:13:41 UTC] PHP Fatal error:  Uncaught InvalidArgumentException: Invalid code in /home/adidg/vendor/google/apiclient/src/Client.php:239
+Stack trace:
+#0 /home/adidg/public_html/includes/php/scheduler.php(144): Google\Client->fetchAccessTokenWithAuthCode('')
+#1 /home/adidg/public_html/includes/php/scheduler.php(41): getClient()
+#2 {main}
+  thrown in /home/adidg/vendor/google/apiclient/src/Client.php on line 239
+[29-Sep-2021 16:21:29 UTC] PHP Warning:  fgets() expects parameter 1 to be resource, string given in /home/adidg/public_html/includes/php/scheduler.php on line 146
+[29-Sep-2021 16:21:29 UTC] PHP Fatal error:  Uncaught InvalidArgumentException: Invalid code in /home/adidg/vendor/google/apiclient/src/Client.php:239
+Stack trace:
+#0 /home/adidg/public_html/includes/php/scheduler.php(149): Google\Client->fetchAccessTokenWithAuthCode('')
+#1 /home/adidg/public_html/includes/php/scheduler.php(44): getClient()
+#2 {main}
+  thrown in /home/adidg/vendor/google/apiclient/src/Client.php on line 239
+[29-Sep-2021 16:58:08 UTC] PHP Warning:  fgets() expects parameter 1 to be resource, string given in /home/adidg/public_html/includes/php/scheduler.php on line 146
+[29-Sep-2021 16:58:08 UTC] PHP Fatal error:  Uncaught InvalidArgumentException: Invalid code in /home/adidg/vendor/google/apiclient/src/Client.php:239
+Stack trace:
+#0 /home/adidg/public_html/includes/php/scheduler.php(149): Google\Client->fetchAccessTokenWithAuthCode('')
+#1 /home/adidg/public_html/includes/php/scheduler.php(44): getClient()
+#2 {main}
+  thrown in /home/adidg/vendor/google/apiclient/src/Client.php on line 239
+[30-Sep-2021 18:06:56 UTC] PHP Warning:  fgets() expects parameter 1 to be resource, string given in /home/adidg/public_html/includes/php/scheduler.php on line 146
+[30-Sep-2021 18:06:56 UTC] PHP Fatal error:  Uncaught InvalidArgumentException: Invalid code in /home/adidg/vendor/google/apiclient/src/Client.php:239
+Stack trace:
+#0 /home/adidg/public_html/includes/php/scheduler.php(149): Google\Client->fetchAccessTokenWithAuthCode('')
+#1 /home/adidg/public_html/includes/php/scheduler.php(44): getClient()
+#2 {main}
+  thrown in /home/adidg/vendor/google/apiclient/src/Client.php on line 239
+[30-Sep-2021 18:17:58 UTC] PHP Warning:  fgets() expects parameter 1 to be resource, string given in /home/adidg/public_html/includes/php/scheduler.php on line 146
+[30-Sep-2021 18:17:58 UTC] PHP Fatal error:  Uncaught InvalidArgumentException: Invalid code in /home/adidg/vendor/google/apiclient/src/Client.php:239
+Stack trace:
+#0 /home/adidg/public_html/includes/php/scheduler.php(149): Google\Client->fetchAccessTokenWithAuthCode('')
+#1 /home/adidg/public_html/includes/php/scheduler.php(44): getClient()
+#2 {main}
+  thrown in /home/adidg/vendor/google/apiclient/src/Client.php on line 239
+[30-Sep-2021 18:25:46 UTC] PHP Warning:  fgets() expects parameter 1 to be resource, string given in /home/adidg/public_html/includes/php/scheduler.php on line 146
+[30-Sep-2021 18:25:46 UTC] PHP Fatal error:  Uncaught InvalidArgumentException: Invalid code in /home/adidg/vendor/google/apiclient/src/Client.php:239
+Stack trace:
+#0 /home/adidg/public_html/includes/php/scheduler.php(149): Google\Client->fetchAccessTokenWithAuthCode('')
+#1 /home/adidg/public_html/includes/php/scheduler.php(44): getClient()
+#2 {main}
+  thrown in /home/adidg/vendor/google/apiclient/src/Client.php on line 239
+[30-Sep-2021 18:27:26 UTC] PHP Warning:  mysqli::query(): Empty query in /home/adidg/public_html/includes/php/scheduler.php on line 73
+[30-Sep-2021 18:27:26 UTC] PHP Fatal error:  Uncaught Error: Call to a member function fetch_assoc() on boolean in /home/adidg/public_html/includes/php/scheduler.php:74
+Stack trace:
+#0 {main}
+  thrown in /home/adidg/public_html/includes/php/scheduler.php on line 74
+[30-Sep-2021 19:00:42 UTC] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at /home/adidg/public_html/includes/php/sign-up.php:1) in /home/adidg/public_html/includes/php/sign-up.php on line 47
+[01-Oct-2021 08:10:15 UTC] PHP Warning:  mysqli::query(): Empty query in /home/adidg/public_html/includes/php/DeleteArticle.php on line 12
+[01-Oct-2021 09:08:42 UTC] PHP Warning:  mysqli::query(): Empty query in /home/adidg/public_html/includes/php/DeleteArticle.php on line 13

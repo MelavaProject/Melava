@@ -1,7 +1,8 @@
 // Setup the calendar with the current date
 $(document).ready(function(){
-    var date = new Date();
-    var today = date.getDate();
+    const date = new Date();
+    const today = date.getDate();
+    document.getElementById("a_date").valueAsDate = new Date(date);
     // Set click handlers for DOM elements
     $(".right-button").click({date: date}, next_year);
     $(".left-button").click({date: date}, prev_year);
@@ -12,6 +13,8 @@ $(document).ready(function(){
     init_calendar(date);
     var events = check_events(today, date.getMonth()+1, date.getFullYear());
     show_events(events, months[date.getMonth()], today);
+    disableEventsTimes(new Date());
+    
 });
 
 // Initialize the calendar by appending the HTML dates
@@ -23,18 +26,20 @@ function init_calendar(date) {
     var year = date.getFullYear();
     var day_count = days_in_month(month, year);
     var row = $("<tr class='table-row'></tr>");
-    var today = date.getDate();
+    var receivedDay = date.getDate();
+
+    const currentDate = new Date();
     // Set date to 1 to find the first day of the month
     date.setDate(1);
     var first_day = date.getDay();
     // 35+firstDay is the number of date elements to be added to the dates table
     // 35 is from (7 days in a week) * (up to 5 rows of dates in a month)
-    for(var i=0; i<35+first_day; i++) {
+    for (var i = 0; i < 35 + first_day; i++) {
         // Since some of the elements will be blank, 
         // need to calculate actual date from index
-        var day = i-first_day+1;
+        var day = i - first_day + 1;
         // If it is a sunday, make a new row
-        if(i%7===0) {
+        if (i % 7 === 0) {
             calendar_days.append(row);
             row = $("<tr class='table-row'></tr>");
         }
@@ -46,7 +51,14 @@ function init_calendar(date) {
         else {
             var curr_date = $("<td class='table-date'>"+day+"</td>");
             var events = check_events(day, month+1, year);
-            if(today===day && $(".active-date").length===0) {
+            if (currentDate.getDate() < receivedDay && currentDate.getMonth() === month) {
+                curr_date.addClass("disabled-date");
+                curr_date.removeClass("table-date");
+                curr_date.addClass("disabled-table-date");
+                
+            }
+            
+            if (receivedDay === day && $(".active-date").length === 0) {
                 curr_date.addClass("active-date");
                 show_events(events, months[month], day);
             }
@@ -55,7 +67,7 @@ function init_calendar(date) {
                 curr_date.addClass("event-date");
             }
             // Set onClick handler for clicking a date
-            curr_date.click({events: events, month: months[month], day:day}, date_click);
+            curr_date.click({events: events, month: months[month], day:day, year: year}, date_click);
             row.append(curr_date);
         }
     }
@@ -73,12 +85,18 @@ function days_in_month(month, year) {
 
 // Event handler for when a date is clicked
 function date_click(event) {
+    //new Date('December 17, 1995')
+    const day = event.data.day + 1;
+    const date = event.data.month + ' ' + day + ', ' + event.data.year;
+    const selectedDate = new Date(date);
+    document.getElementById("a_date").valueAsDate = selectedDate;
     $(".events-container").show(250);
     $("#dialog").hide(250);
     $(".active-date").removeClass("active-date");
     $(this).addClass("active-date");
     show_events(event.data.events, event.data.month, event.data.day);
-};
+    disableEventsTimes(new Date(event.data.month + ' ' + event.data.day + ', ' + event.data.year));
+}
 
 // Event handler for when a month is clicked
 function month_click(event) {
@@ -104,12 +122,16 @@ function next_year(event) {
 
 // Event handler for when the year left-button is clicked
 function prev_year(event) {
-    $("#dialog").hide(250);
-    var date = event.data.date;
-    var new_year = date.getFullYear()-1;
-    $("year").html(new_year);
-    date.setFullYear(new_year);
-    init_calendar(date);
+    const date = event.data.date;
+    const new_year = date.getFullYear() - 1;
+    const todayYear = new Date().getFullYear();
+    
+    if (todayYear <= new_year) {
+        $("#dialog").hide(250);
+        $("year").html(new_year);
+        date.setFullYear(new_year);
+        init_calendar(date);
+    }
 }
 
 // Event handler for clicking the new event button
@@ -173,28 +195,27 @@ function show_events(events, month, day) {
     // Clear the dates container
     $(".events-container").empty();
     $(".events-container").show(250);
-    console.log(event_data["events"]);
+    //console.log(event_data["events"]);
     // If there are no events for this date, notify the user
-    if(events.length===0) {
+    if (events.length === 0) {
         var event_card = $("<div class='event-card'></div>");
-        var event_name = $("<div class='event-name'>There are no events planned for "+month+" "+day+".</div>");
+        var event_name = $("<div class='event-name'>לא נמצאו פגישות ליום זה</div>");
         $(event_card).css({ "border-left": "10px solid #FF1744" });
         $(event_card).append(event_name);
         $(".events-container").append(event_card);
-    }
-    else {
+    } else {
         // Go through and add each event as a card to the events container
         for(var i=0; i<events.length; i++) {
             var event_card = $("<div class='event-card'></div>");
-            var event_name = $("<div class='event-name'>"+events[i]["occasion"]+":</div>");
-            var event_count = $("<div class='event-count'>"+events[i]["invited_count"]+" Invited</div>");
+            var event_name = $("<div class='event-name'>"+events[i]["occasion"]+"</div>");
+            var start_time = $("<div class='event-count'>"+events[i]["start_time"]+"</div>");
             if(events[i]["cancelled"]===true) {
                 $(event_card).css({
                     "border-left": "10px solid #FF1744"
                 });
-                event_count = $("<div class='event-cancelled'>Cancelled</div>");
+                start_time = $("<div class='event-cancelled'>Cancelled</div>");
             }
-            $(event_card).append(event_name).append(event_count);
+            $(event_card).append(event_name).append(start_time);
             $(".events-container").append(event_card);
         }
     }
@@ -203,7 +224,7 @@ function show_events(events, month, day) {
 // Checks if a specific date has any events
 function check_events(day, month, year) {
     var events = [];
-    for(var i=0; i<event_data["events"].length; i++) {
+    for(var i = 0; i < event_data["events"].length; i++) {
         var event = event_data["events"][i];
         if(event["day"]===day &&
             event["month"]===month &&
@@ -214,94 +235,54 @@ function check_events(day, month, year) {
     return events;
 }
 
-// Given data for events in JSON format
-var event_data = {
-    "events": [
-    {
-        "occasion": " Repeated Test Event ",
-        "invited_count": 120,
-        "year": 2021,
-        "month": 08,
-        "day": 20,
-        "cancelled": true
-    },
-    {
-        "occasion": " Repeated Test Event ",
-        "invited_count": 120,
-        "year": 2021,
-        "month": 8,
-        "day": 21,
-        "cancelled": false
-    },
-        {
-        "occasion": " Repeated Test Event ",
-        "invited_count": 120,
-        "year": 2017,
-        "month": 5,
-        "day": 10,
-        "cancelled": true
-    },
-    {
-        "occasion": " Repeated Test Event ",
-        "invited_count": 120,
-        "year": 2017,
-        "month": 5,
-        "day": 10
-    },
-        {
-        "occasion": " Repeated Test Event ",
-        "invited_count": 120,
-        "year": 2017,
-        "month": 5,
-        "day": 10,
-        "cancelled": true
-    },
-    {
-        "occasion": " Repeated Test Event ",
-        "invited_count": 120,
-        "year": 2017,
-        "month": 5,
-        "day": 10
-    },
-        {
-        "occasion": " Repeated Test Event ",
-        "invited_count": 120,
-        "year": 2017,
-        "month": 5,
-        "day": 10,
-        "cancelled": true
-    },
-    {
-        "occasion": " Repeated Test Event ",
-        "invited_count": 120,
-        "year": 2017,
-        "month": 5,
-        "day": 10
-    },
-        {
-        "occasion": " Repeated Test Event ",
-        "invited_count": 120,
-        "year": 2017,
-        "month": 5,
-        "day": 10,
-        "cancelled": true
-    },
-    {
-        "occasion": " Repeated Test Event ",
-        "invited_count": 120,
-        "year": 2017,
-        "month": 5,
-        "day": 10
-    },
-    {
-        "occasion": " Test Event",
-        "invited_count": 120,
-        "year": 2017,
-        "month": 5,
-        "day": 11
+function disableEventsTimes(selectedDate) {
+    $('#a_hour').val("");
+    enableAllTimes();
+    const events = JSON.parse(sessionStorage.getItem("events"));
+    if (events) {
+        for (let i = 0; i < events.length; i++) {
+                let selectedMonth = selectedDate.getMonth() + 1;
+                selectedMonth = selectedMonth < 10 ? '0' + selectedMonth : selectedMonth;
+                const selectedDateString = selectedDate.getFullYear() + '-' + selectedMonth + '-' + selectedDate.getDate();
+                if (events[i]["date"] === selectedDateString) {
+                    const optionElement = document.getElementById(events[i]["start_time"]);
+                    if (optionElement && optionElement.label + ':00' === events[i]["start_time"]) {
+                        optionElement.disabled = true;
+                    }
+                }
+        }
     }
-    ]
-};
+}
+
+function enableAllTimes() {
+    const timeElements = [
+        { element: document.getElementById('09:00:00') },
+        { element: document.getElementById('10:00:00') },
+        { element: document.getElementById('11:00:00') },
+        { element: document.getElementById('12:00:00') },
+        { element: document.getElementById('13:00:00') },
+        { element: document.getElementById('14:00:00') },
+        { element: document.getElementById('15:00:00') },
+        { element:  document.getElementById('16:00:00') },
+        { element: document.getElementById('17:00:00') },
+        { element: document.getElementById('18:00:00') }
+    ];
+    
+    for (let i = 0; i < timeElements.length; i++) {
+        timeElements[i].element.disabled = false;
+    }
+}
+
+// Given data for events in JSON format
+
+const events = JSON.parse(sessionStorage.getItem("events"));
+var event_data = {"events": []};
+if (events) {
+    for (let i = 0; i < events.length; i++) {
+    const date = new Date(events[i].date);
+    event_data.events.push({ "year": date.getFullYear(), "month": date.getMonth() + 1, "day": date.getDate(), "occasion": " פגישה אישית ", "start_time":  events[i].start_time})
+    } 
+}
 
 const months = [ 
     "January", 
